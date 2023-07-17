@@ -1,0 +1,19 @@
+program simplewhile
+    /*This simple minimal++ program uses a while loop
+    to count from 1 to 20, every time it prints the result.
+    It's also a test to see if the compiler can seperate the
+    print() inside the while loop with the one that is outside
+    it.*/
+    declare x, y;
+    {
+    
+	x := 0;
+	y := 20;
+	while (x < y){
+        x := x + 1;
+        print(x);
+    }
+    print(x);
+    }
+
+

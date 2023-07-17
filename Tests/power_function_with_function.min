@@ -1,0 +1,32 @@
+program powerfunction
+    /*A minimal++ program to calculate
+    the power of (number^exponent). After
+    the calculation, the program prints:
+    number, exponent, result*/
+    
+	declare number, exponent, power, i;
+    function f(in power, in i, in exponent)
+    {
+		while (i <= exponent)
+			{
+				power := power * number;
+				i := i + 1;
+			}
+		print(number);
+		print(exponent);
+		print(power);
+    
+    }
+    
+    
+   
+    {
+        number := 2;
+        exponent := 10;
+        power := 1;
+        i := 1;
+        call f(in power, in i, in exponent);
+        
+    
+    }
+

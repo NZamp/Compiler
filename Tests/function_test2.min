@@ -1,0 +1,17 @@
+program functiontest
+	declare x,y,z;
+	function f(in x, in y)
+	{	
+		if (x > y) then x := y;
+		else y := x;
+		print(x);
+		print(y);
+	}
+	
+	{
+		x := 11;
+		y := 10;
+		call f(in x);
+		print(x);
+		print(y);
+	}

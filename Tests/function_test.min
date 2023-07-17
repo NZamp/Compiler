@@ -1,0 +1,13 @@
+program functiontest
+	declare x,y,z;
+	function f(in x)
+	{	
+		x := 10;
+		print(x);
+	}
+	
+	{
+		x := 11;
+		y := f(in x);
+		print(x);
+	}

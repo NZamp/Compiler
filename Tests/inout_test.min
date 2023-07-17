@@ -1,0 +1,17 @@
+program functiontest
+	declare x,y,z;
+	function f(inout x)
+	{	
+		x := x + 10;
+		print(x);
+		return (x);
+	}
+	
+	{
+		x := 11;
+		y := 10;
+		y := f(inout x);
+		print(x);
+		print(y);
+	}
+

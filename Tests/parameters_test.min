@@ -1,0 +1,36 @@
+program p
+	declare x,y,z,a,b,c;
+	function f(in x,in y,in z,in a,in b,in c)
+	declare m,n;
+	
+	function f2 (in a, in b, in c)
+		declare d, v, k;
+		{
+			d := 100;
+			v := 99;
+			k := b-k;
+			a := b + c + d + v + k;
+			print(a);
+		}
+	
+	{
+		x := y + z + a + b + c;
+		m := 10;
+		n := m + 10;
+		print(x+m);
+		call f2(in x, in b, in c);
+		
+	
+	}
+	
+	{
+	x := 1;
+	y := 2;
+	z := 3;
+	a := 4;
+	b := 5;
+	c := 6;
+	call f(in x,in y,in z,in a,in b,in c);
+	print(c);
+	
+	} 

@@ -1,0 +1,22 @@
+program simpleif
+	declare x, y, temp;
+	{
+		/*This program in minimal++ simply does a swap
+		between x and y variables. It also prints the 
+		variable values before and after the swap.*/
+    
+    
+        x := 10;
+        y := 20;
+        print(x);
+        print(y);
+        if (x < y) then {
+            temp := y; 
+            y := x;
+            x := temp;
+        }
+        print(x);
+        print(y);
+        
+    
+}

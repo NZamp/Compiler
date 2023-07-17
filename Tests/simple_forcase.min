@@ -1,0 +1,11 @@
+program simpleforcase
+    declare x, y, z;
+    {
+        x := 10;
+        y := 20;
+        z := 30;
+        forcase when (y < z ): y := y + 200;
+        default: y := 50;
+        print(y);
+    }
+
