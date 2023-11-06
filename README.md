@@ -6,6 +6,7 @@ To run the compiler on Linux, open a terminal and execute it with python3:
 
 ` python3 compiler.py source_program asm_output `
 
+On Windows 10, replace the `python3` command with `python`.
 - The `source_program` should be a valid Minimal++ program, otherwise the Compiler will return an Error.
 - If no `asm_output` file is specified, the final assembly code can be found in the file `out.asm`.
 - If the `source_program` does not contain functions, the compiler can produce an equivelant executable program in C language, named `intermediate_code.c`.
